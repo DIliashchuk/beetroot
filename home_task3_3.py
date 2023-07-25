@@ -1,0 +1,9 @@
+firstNumber = 10
+secondNumber = 8
+print(firstNumber + secondNumber)
+print(firstNumber - secondNumber)
+print(firstNumber / secondNumber)
+print(firstNumber * secondNumber)
+print(firstNumber ** secondNumber)
+print(firstNumber % secondNumber)
+print(firstNumber // secondNumber)
