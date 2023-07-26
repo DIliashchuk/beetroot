@@ -8,15 +8,15 @@
 import random
 
 print("Please try to guess the number")
-player = input("Write number that I guess ")
-computer = random.randint(1, 10)
-
-if not player.isdigit():
-    print("Please write number from 1 to 10")
-
-if player == computer:
-    print("You win")
-
+print("Can you guess the number? Let's try")
+player = input("Choose a number from 1 to 10 ")
+if player.isdigit():
+    computer = random.randint(1, 10)
+    print(("Computer number:"), computer)
+    player_1 = int(player)
+    if computer == player_1:
+        print("You Win!")
+    else:
+        print("You lose!")
 else:
-    print("You loose")
-    print(computer)
+    print("You need the number, start New Game!")
