@@ -14,3 +14,45 @@ while i < 10:
     i += 1
 print(list)
 print(max(list))
+
+
+# Exclusive common numbers.
+
+# Generate 2 lists with the length of 10 with random integers from 1 to 10,
+# and make a third list containing the common integers between the 2 initial lists without any duplicates.
+
+# Constraints: use only while loop and random module to generate numbers
+
+list_one = []
+list_two = []
+i = 0
+while i < 10:
+    number_list1 = random.randint(1, 10)
+    list_one.append(number_list1)
+    number_list2 = random.randint(1, 10)
+    list_two.append(number_list2)
+    i += 1
+print(list_one, list_two)
+final_list = set(list_one + list_two)
+print(final_list)
+
+#Extracting numbers.
+
+#Make a list that contains all integers from 1 to 100, then find all integers from the list that are divisible by 7
+# but not a multiple of 5, and store them in a separate list. Finally, print the list.
+
+#Constraint: use only while loop for iteration
+
+# Create a list containing all integers from 1 to 100
+all_integers = []
+i = 1
+while i < 101:
+    all_integers.append(i)
+    i += 1
+print(all_integers)
+# Find integers that are divisible by 7 but not a multiple of 5
+filtered_integers = [num for num in all_integers if num % 7 == 0 and num % 5 != 0]
+
+# Print the list of filtered integers
+print(filtered_integers)
+
