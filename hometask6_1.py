@@ -56,3 +56,4 @@ filtered_integers = [num for num in all_integers if num % 7 == 0 and num % 5 != 
 # Print the list of filtered integers
 print(filtered_integers)
 
+
