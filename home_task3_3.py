@@ -3,7 +3,7 @@
 
 first_number = 10
 second_number = 8
-print(first_numberNumber + second_number)
+print(first_number + second_number)
 print(first_number - second_number)
 print(first_number / second_number)
 print(first_number * second_number)
