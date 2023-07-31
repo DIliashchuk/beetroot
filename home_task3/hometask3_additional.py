@@ -20,3 +20,4 @@ while True:
 
     if done_end_with_the_same_number and done_devide_by_4:
         break
+
