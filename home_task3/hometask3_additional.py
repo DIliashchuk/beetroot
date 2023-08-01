@@ -10,14 +10,16 @@ while True:
     a += 1
     b += 2
     c += 3
-    if str(a)[-1] == str(b)[-1] == str(c)[-1]:
-        print(a, b, c)
+    if str(a)[-1] == str(b)[-1] == str(c)[-1]: # also need one check : "not done_end_with_the_same_number"
+        print(a, b, c) 
         done_end_with_the_same_number = True
 
-    if a % 4 == 0 and b % 4 == 0 and c % 4 == 0:
+    if a % 4 == 0 and b % 4 == 0 and c % 4 == 0: # also need one check : "not done_devide_by_4"
         print(a, b, c)
         done_devide_by_4 = True
 
     if done_end_with_the_same_number and done_devide_by_4:
         break
+
+#ok but see comments
 
