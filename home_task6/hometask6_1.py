@@ -15,6 +15,8 @@ while i < 10:
 print(list)
 print(max(list))
 
+# Fine
+
 
 # Exclusive common numbers.
 
@@ -36,6 +38,8 @@ print(list_one, list_two)
 final_list = set(list_one + list_two)
 print(final_list)
 
+# fine that you remember about sets)
+
 #Extracting numbers.
 
 #Make a list that contains all integers from 1 to 100, then find all integers from the list that are divisible by 7
@@ -46,14 +50,15 @@ print(final_list)
 # Create a list containing all integers from 1 to 100
 all_integers = []
 i = 1
-while i < 101:
+while i < 101: # can be replaces with "list(range(101))"
     all_integers.append(i)
     i += 1
 print(all_integers)
 # Find integers that are divisible by 7 but not a multiple of 5
-filtered_integers = [num for num in all_integers if num % 7 == 0 and num % 5 != 0]
+filtered_integers = [num for num in all_integers if num % 7 == 0 and num % 5 != 0] # nice usage of list comprehension
 
 # Print the list of filtered integers
 print(filtered_integers)
 
 
+#fine but see the comments
