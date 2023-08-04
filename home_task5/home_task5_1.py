@@ -20,3 +20,5 @@ if player.isdigit():
         print("You lose!")
 else:
     print("You need the number, start New Game!")
+
+#ok, fine that you make isdigit check

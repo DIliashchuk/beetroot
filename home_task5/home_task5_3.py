@@ -17,3 +17,4 @@ while i < 5:
     print(new_word)
     i +=1
 
+# I'm proud of you) nice usage of join. good understanding of convetring of string to the list

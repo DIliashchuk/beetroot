@@ -6,7 +6,7 @@
 first_number = 10
 second_number = 12
 math_result = 21
-message = "We have a wrong answer" if math_result != first_number + second_number else "answer is right"
+message = "We have a wrong answer" if math_result != first_number + second_number else "answer is right" # I love this)
 print(message)
 
 
@@ -17,3 +17,6 @@ print(message)
 #    message = "We have a wrong answer"
 #else:
 #    message = "answer is right"
+
+#oh, very nice sollution!!!
+# but also, try to do this with input)
