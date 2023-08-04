@@ -61,10 +61,10 @@ print(title)
 for sec in range(time_to_work):
     time = sec
     is_music = music_start_time <= sec < music_stop_time
-
+   # java_production = java_production + random.randint(-10, 10)
     # Simulate music stopping effect for Java worker
     if is_music:
-        java_production *= 0.9
+        java_production = 150
     else:
         java_production = original_java_production  # Restore original Java production value
 
@@ -81,8 +81,10 @@ for sec in range(time_to_work):
     python_worker['current_production'] = min(python_worker['current_production'], python_worker['max_production'])
 
     # Add random fluctuation to Java worker's productivity
-    java_production = java_production + random.randint(-10, 10)
-
+    if not is_music:
+        java_production = java_production + random.randint(-10, 10)
+    else:
+        java_production *= 0.9
     js_worker['current_production'] = js_timeline[sec]
 
     # Simulate JS worker's decreasing productivity
