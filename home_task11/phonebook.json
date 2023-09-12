@@ -1,0 +1,65 @@
+[
+    {
+        "first_name": "Dima",
+        "last_name": "Shevchenko",
+        "telephone": "123-456-7890",
+        "city": "New York",
+        "state": "NY"
+    },
+    {
+        "first_name": "Vitalii",
+        "last_name": "Nazarenko",
+        "telephone": "987-654-3210",
+        "city": "Los Angeles",
+        "state": "CA"
+    },
+    {
+        "first_name": "Iryna",
+        "last_name": "Pokotilo",
+        "telephone": "555-123-4567",
+        "city": "Chicago",
+        "state": "IL"
+    },
+    {
+        "first_name": "John",
+        "last_name": "Doe",
+        "telephone": "111-222-3333",
+        "city": "Seattle",
+        "state": "WA"
+    },
+    {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "telephone": "444-555-6666",
+        "city": "San Francisco",
+        "state": "CA"
+    },
+    {
+        "first_name": "John",
+        "last_name": "Doe",
+        "telephone": "111-222-3333",
+        "city": "Seattle",
+        "state": "WA"
+    },
+    {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "telephone": "444-555-6666",
+        "city": "San Francisco",
+        "state": "CA"
+    },
+    {
+        "first_name": "John",
+        "last_name": "Doe",
+        "telephone": "111-222-3333",
+        "city": "Seattle",
+        "state": "WA"
+    },
+    {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "telephone": "444-555-6666",
+        "city": "San Francisco",
+        "state": "CA"
+    }
+]
